@@ -1,0 +1,23 @@
+name: User Profile
+type: profile
+description: 'Profile'
+core: 8.x
+
+distribution:
+  name: User Profile Dist
+  langcode: en
+
+install:
+  - shield
+  - devel
+  - admin_toolbar
+  - hacked
+
+dependencies:
+  - node
+  - block
+  - views
+
+themes:
+  - bartik
+  - seven
